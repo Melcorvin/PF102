@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container profile">
+      <img id="displayPic" class="profile-pic" />
+      <h2 id="displayName"></h2>
+      <p><strong>Birthday:</strong> <span id="displayBirthday"></span></p>
+      <p><strong>Bio:</strong> <span id="displayBio"></span></p>
+      <p><strong>Favorite Quote:</strong> <span id="displayQuote"></span></p>
+
+      <div class="post-section">
+        <input type="text" id="newPost" placeholder="What's on your mind?" />
+        <button onclick="addPost()">Post</button>
+      </div>
+
+      <div class="feed">
+        <h3>My Posts</h3>
+        <div id="posts"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
