@@ -125,16 +125,31 @@ h2 {
 
 .heart {
   position: absolute;
-  right: 12px;
-  bottom: 12px;
+  right: 15px;
+  bottom: 85px;
   cursor: pointer;
   color: gray;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
+
 .heart.active {
   color: red;
-  transform: scale(1.2);
+  transform: scale(1.5);
+}
+
+.haha {
+  position: absolute;
+  right: 50px;
+  bottom: 85px;
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+
+.haha.active {
+  transform: scale(1.5);
 }
 
 @keyframes particles {
