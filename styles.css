@@ -125,7 +125,7 @@ h2 {
 
 .heart {
   position: absolute;
-  right: 50px;
+  right: 20px;
   bottom: 85px;
   cursor: pointer;
   color: gray;
