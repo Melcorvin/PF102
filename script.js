@@ -85,7 +85,6 @@ function renderPost(postText, index) {
   postDiv.classList.add("post");
   postDiv.innerHTML =
     postText +
-    ' <span class="haha" onclick="toggleReaction(this)">😂</span>' + 
     ' <span class="heart" onclick="toggleReaction(this)">❤️</span>'+
     ' <button onclick="deletePost(' + index + ')">Delete</button>';
   posts.prepend(postDiv);
